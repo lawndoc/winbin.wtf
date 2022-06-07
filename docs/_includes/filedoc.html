@@ -1,0 +1,43 @@
+<h2 id="description">Description</h2>
+
+<p>{{ page.description }}</p>
+    
+<h2 id="properties">Properties</h2>
+    
+<p><strong>File Size</strong>: {{ page.file-size.min }} - {{ page.file-size.max }}</p>
+
+<p><strong>Digital Signature</strong>: {{ page.signature }}</p>
+
+<p><strong>Spawned by</strong>:</p>
+
+<ul>
+{%- for parent in page.spawned-by -%}
+    <li>{{ parent }}</li>
+{%- endfor -%}
+</ul>
+
+<p><strong>Spawns</strong>:</p>
+
+<ul>
+    {%- for child in page.spawns -%}
+        <li>{{ child }}</li>
+    {%- endfor -%}
+</ul>
+
+<p><strong>LoL Bin</strong>: {{ page.lol-bin }}</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+{%- for ref in page.references -%}
+    <li><a href="{{ ref.link }}">{{ ref.name }}</a></li>
+{%- endfor -%}
+</ul>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<ul>
+{%- for person in page.acknowledgements -%}
+    <li>{{ person.name }} (@{{ person.handle }})</li>
+{%- endfor -%}
+</ul>

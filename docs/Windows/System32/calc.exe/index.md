@@ -18,32 +18,4 @@ acknowledgements:
       handle: lawndoc
 ---
 
-## Description
-
-{{ page.description }}
-
-## Properties
-
-**File Size**: {{ page.file-size.min }} - {{ page.file-size.max }}
-
-**Digital Signature**: {{ page.signature }}
-
-**Spawned by**:
-
-- explorer.exe
-
-**Spawns**:
-
-- none
-
-
-**LoL Bin**: {{ page.lol-bin }}
-
-## References
-
-- [none](.)
-
-
-## Acknowledgements
-
-- C.J. May (@lawndoc)
+{% include filedoc.html %}
