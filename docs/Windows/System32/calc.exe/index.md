@@ -32,12 +32,14 @@ acknowledgements:
 
 {%- for parent in page.spawned-by -%}
 - {{ parent }}
+
 {%- endfor -%}
 
 **Spawns**:
 
 {%- for child in page.spawns -%}
 - {{ child }}
+
 {%- endfor -%}
 
 **LoL Bin**: {{ page.lol-bin }}
@@ -46,10 +48,12 @@ acknowledgements:
 
 {%- for ref in page.references -%}
 - [{{ ref.name }}]({{ ref.link }})
+
 {%- endfor -%}
 
 ## Acknowledgements
 
 {%- for person in page.acknowledgements -%}
 - {{ person.name }} (@{{person.handle}})
+
 {%- endfor -%}
