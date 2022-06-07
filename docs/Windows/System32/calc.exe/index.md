@@ -1,6 +1,21 @@
 ---
 title: calc.exe
 description: A basic calculator application with a GUI.
+file-size:
+    min: 27KB
+    max: 27KB
+signature: None
+spawned-by:
+    - explorer.exe
+spawns:
+    - none
+lol-bin: No
+references:
+    - name: none
+      link: https://example.com/link
+acknowledgements:
+    - name: C.J. May
+      handle: lawndoc
 ---
 
 ## Description
@@ -9,21 +24,29 @@ description: A basic calculator application with a GUI.
 
 ## Properties
 
-**File Size**: 27KB - 27KB
+**File Size**: {{ page.file-size.min }} - {{ page.file-size.max }}
 
-**Digital Signature**: None
+**Digital Signature**: {{ page.signature }}
 
 **Spawned by**:
-- explorer.exe
+{%- for parent in page.spawned-by -%}
+- {{ parent }}
+{%- endfor -%}
 
 **Spawns**:
-- None
+{%- for child in page.spawns -%}
+- {{ child }}
+{%- endfor -%}
 
-**LoL Bin**: No
+**LoL Bin**: {{ page.lol-bin }}
 
 ## References
 
-- [None](.)
+{%- for ref in page.references -%}
+- [{{ ref.name }}]({{ ref.link }})
+{%- endfor -%}
 
 ## Acknowledgements
-- C.J. May (@lawndoc)
+{%- for person in page.acknowledgements -%}
+- {{ person.name }} (@{{person.handle}})
+{%- endfor -%}
