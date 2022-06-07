@@ -1,0 +1,22 @@
+---
+Name: Binary.exe
+Description: A description about what the file is. Don't get into the history of the file unless it is essential to understanding the file's function.
+Updated: DD-MM-YYYY (date this file was last updated)
+Properties:
+  - File Size: min - max
+  - Digital Signature: Unknown
+  - Spawned By:
+      - Name: example.exe
+        Link: https://winbin.wtf/Windows/System32/example.exe
+  - Spawns:
+      - Name: example.exe
+        Link: https://winbin.wtf/Windows/System32/example.exe
+  - OperatingSystems:
+      - "Unknown OS Versions"
+  - Privileges: User
+  - LoL Bin: Unknown
+Resources:
+  - Link: https://example.com/link
+Acknowledgements:
+  - Person: <Example Name>
+    Handle: '@example-handle'
