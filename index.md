@@ -1,7 +1,3 @@
-# WinBin.WTF
-
-This site contains documentation on Windows binaries to explain what they are, what they should be doing, and other useful information.
-
 The scope of this documentation is only files that come with a base install of any Windows version. This does not include new binaries installed by the control panel item "Turn Windows features on or off." If/when all default Windows binaries are documented, the scope of this documentation may expand.
 
 ## How to find a binary
