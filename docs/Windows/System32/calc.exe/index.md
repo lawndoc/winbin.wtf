@@ -30,30 +30,20 @@ acknowledgements:
 
 **Spawned by**:
 
-{%- for parent in page.spawned-by -%}
-- {{ parent }}
-
-{%- endfor -%}
+- explorer.exe
 
 **Spawns**:
 
-{%- for child in page.spawns -%}
-- {{ child }}
+- none
 
-{%- endfor -%}
 
 **LoL Bin**: {{ page.lol-bin }}
 
 ## References
 
-{%- for ref in page.references -%}
-- [{{ ref.name }}]({{ ref.link }})
+- [none](.)
 
-{%- endfor -%}
 
 ## Acknowledgements
 
-{%- for person in page.acknowledgements -%}
-- {{ person.name }} (@{{person.handle}})
-
-{%- endfor -%}
+- C.J. May (@lawndoc)
