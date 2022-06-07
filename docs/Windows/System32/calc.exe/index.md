@@ -29,11 +29,13 @@ acknowledgements:
 **Digital Signature**: {{ page.signature }}
 
 **Spawned by**:
+
 {%- for parent in page.spawned-by -%}
 - {{ parent }}
 {%- endfor -%}
 
 **Spawns**:
+
 {%- for child in page.spawns -%}
 - {{ child }}
 {%- endfor -%}
@@ -47,6 +49,7 @@ acknowledgements:
 {%- endfor -%}
 
 ## Acknowledgements
+
 {%- for person in page.acknowledgements -%}
 - {{ person.name }} (@{{person.handle}})
 {%- endfor -%}
