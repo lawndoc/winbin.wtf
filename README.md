@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# WinBin.WTF
 
-You can use the [editor on GitHub](https://github.com/lawndoc/winbin.wtf/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This repo contains the source code for [WinBin.WTF](https://winbin.wtf), a Windows binary documentation site. The site is intended to make up for Microsoft's lack of documentation on Windows binaries.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The directory structure is laid out exactly like the C: drive would be on a normal Windows installation, so you just need to append the path of the file you are looking for to the winbin.wtf URL to find what you are looking for.
 
-### Markdown
+### Scope
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For now, the scope of this project is only files that come with a base install of Windows. New binaries installed by the control panel item "Turn Windows features on or off" are currently not in scope. If/when we document all regular Windows binaries, we may expand the scope at that time.
 
-```markdown
-Syntax highlighted code block
+### Contributing
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lawndoc/winbin.wtf/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+There are a huge number of built-in Windows binaries, so any contributions to this documentation would be appreciated. I've created a template that **must be** used when documenting a new binary. Modifications to the template should be discussed first by opening an issue in this repository. Adding new fields to the template will require us to retroactively modify all existing binary docs, so be prepared to make a good argument for adding a field.
