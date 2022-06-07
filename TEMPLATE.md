@@ -1,26 +1,21 @@
-# \<File Name>
+---
+title: Example.exe
+description: A description about what the file is. Be as detailed as you can.
+file-size:
+    min: "?KB"
+    max: "?KB"
+signature: No Signer
+spawned-by:
+    - Unknown
+spawns:
+    - Unknown
+lol-bin: False
+references:
+    - name: none
+      link: https://example.com/link
+acknowledgements:
+    - name: Your Name
+      handle: your_handle
+---
 
-## Description
-
-A description about what the file is. Don't get into the history of the file unless it is essential to understanding the file's function.
-
-## Properties
-
-File Size: min - max
-
-Digital Signature: Unknown
-
-Spawned by:
-- Unknown
-
-Spawns:
-- Unknown
-
-LoL Bin: Unknown
-
-## References
-
-- [None](.)
-
-## Acknowledgements
-- \<add your name to this list with an optional link>
+{% include filedoc.html %}
