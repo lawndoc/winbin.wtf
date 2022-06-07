@@ -1,1 +1,11 @@
 theme: minima
+
+author:
+  name: C.J. May
+  email: winbin.wtf@cjmay.info
+
+minima:
+  social_links:
+    github: lawndoc
+    twitter: lawndoc
+    linkedin: cj-may
