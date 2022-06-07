@@ -1,6 +1,6 @@
-# WinBin.WTF
+# WinBin.wtf
 
-This repo contains the source code for [WinBin.WTF](https://winbin.wtf), a Windows binary documentation site. The site is intended to make up for Microsoft's lack of documentation on Windows binaries.
+This repo contains the source code for [WinBin.wtf](https://winbin.wtf), a Windows binary documentation site. The site is intended to make up for Microsoft's lack of documentation on Windows binaries.
 
 The directory structure is laid out exactly like the C: drive would be on a normal Windows installation, so you just need to append the path of the file you are looking for to the winbin.wtf URL to find what you are looking for.
 
