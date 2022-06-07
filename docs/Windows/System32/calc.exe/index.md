@@ -1,8 +1,11 @@
-# calc.exe
+---
+title: calc.exe
+description: A basic calculator application with a GUI.
+---
 
 ## Description
 
-A basic calculator application with a GUI.
+{{ page.description }}
 
 ## Properties
 
