@@ -9,8 +9,10 @@ spawned-by:
     - explorer.exe
 spawns:
     - none
+dlls:
+    - none
 lol-bin: No
-references:
+resources:
     - name: Source Code
       link: https://github.com/microsoft/calculator
 acknowledgements:

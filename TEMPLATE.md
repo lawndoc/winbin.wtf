@@ -9,8 +9,10 @@ spawned-by:
     - Unknown
 spawns:
     - Unknown
+dlls:
+    - Unknown
 lol-bin: False
-references:
+resources:
     - name: none
       link: https://example.com/link
 acknowledgements:
