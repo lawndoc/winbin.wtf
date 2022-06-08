@@ -11,6 +11,8 @@ Properties:
   - Spawns:
       - Name: example.exe
         Link: https://winbin.wtf/Windows/System32/example.exe
+  - DLLs:
+      - example.dll
   - OperatingSystems:
       - "Unknown OS Versions"
   - Privileges: User
