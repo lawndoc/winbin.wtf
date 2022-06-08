@@ -6,7 +6,7 @@ The directory structure is laid out exactly like the C:\ drive would be on a nor
 
 ### Scope
 
-For now, the scope of this project is only files that come with a base install of Windows. New binaries installed by the control panel item "Turn Windows features on or off" are currently not in scope. If/when we document all regular Windows binaries, we may expand the scope at that time.
+For now, the scope of this project is only files that come with a base install of Windows Desktop. New binaries installed by the control panel item "Turn Windows features on or off" are currently not in scope. If/when we document all regular Windows Desktop binaries, we may expand the scope at that time to servers and/or optional Windows binaries.
 
 ### Contributing
 
