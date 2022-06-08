@@ -6,11 +6,11 @@ file-size:
     max: "?KB"
 signature: No Signer
 spawned-by:
-    - Unknown
+    - Unknown  # full file path
 spawns:
-    - Unknown
+    - Unknown  # full file path or "none"
 dlls:
-    - Unknown
+    - Unknown  # full file path or "none"
 lol-bin: False
 resources:
     - name: none
