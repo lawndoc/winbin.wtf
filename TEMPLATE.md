@@ -1,6 +1,7 @@
 ---
 title: Example.exe
-description: A description about what the file is. Be as detailed as you can.
+description: |
+  A description about what the file is. Be as detailed as you can.
 file-size:
     min: "?KB"
     max: "?KB"
