@@ -29,4 +29,4 @@ acknowledgements:
       handle: lawndoc
 ---
 
-{% include filedoc.html description=page.description %}
+{% include filedoc.html %}
