@@ -8,3 +8,6 @@ minima:
     github: lawndoc
     twitter: lawndoc
     linkedin: cj-may
+
+kramdown:
+  input: GFM
