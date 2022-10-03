@@ -24,6 +24,9 @@
 </head>
 <body>
   <div class="container-lg px-3 my-5 markdown-body">
+    <h1>
+      <a href="../">..</a>{{ page.dir[:page.dir.rindex("/")] }}
+    </h1>
     <h2>
       Search {{ page.dir }}:
       <form id="search_form" autocomplete="off">
