@@ -1,6 +1,5 @@
-{% set currentdir = path.dir.split("/")[-1] %}
 <head>
-  <title>{{ currentdir }}</title>
+  <title>{{ page.dir | split: "/" | last }}</title>
   <style>
     body {
       overflow-y: scroll;
@@ -26,7 +25,7 @@
 <body>
   <div class="container-lg px-3 my-5 markdown-body">
     <h2>
-      <a href="../">..</a>{{ currentdir }}
+      <a href="../">..</a>{{ page.dir | split: "/" | last }}
     </h2>
     <h1>
       Search:
