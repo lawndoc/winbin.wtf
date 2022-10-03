@@ -1,5 +1,6 @@
+{% set currentdir = path.dir.split("/")[-1] %}
 <head>
-  <title>{{ page.title }}</title>
+  <title>{{ currentdir }}</title>
   <style>
     body {
       overflow-y: scroll;
@@ -25,10 +26,10 @@
 <body>
   <div class="container-lg px-3 my-5 markdown-body">
     <h2>
-      <a href="../">..</a>{{ page.dir }}
+      <a href="../">..</a>{{ currentdir }}
     </h2>
     <h1>
-      Search {{ page.dir }}:
+      Search:
       <form id="search_form" autocomplete="off">
         <input id="search_input">
       </form>
