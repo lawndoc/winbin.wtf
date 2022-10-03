@@ -96,7 +96,6 @@
       const search_input = document.getElementById('search_input');
       const search_value = decodeURIComponent(document.location.search.replace('?', '').replace(/\+/g, ' '));
       search_input.value = search_value;
-      navigateToFile(data, search_value);
       updateList(data, search_value);
       // Configure search box events
       search_form.addEventListener('submit', (event) => {
