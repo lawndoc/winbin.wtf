@@ -1,13 +1,5 @@
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="mobile-web-app-capable" content="yes">
     <title>{{ page.title }}</title>
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="https://winbin.wtf{{ page.url }}">
-    <meta property="og:site_name" content="{{ page.title }}">
-    <link type="application/opensearchdescription+xml" rel="search" href="./search.xml"/>
     <style>
       body {
         overflow-y: scroll;
@@ -97,7 +89,7 @@
       }
       (async () => {
         // Get GitHub repository file info
-        const response = await fetch('https://api.github.com/repos/lawndoc/winbin.wtf/contents/docs{{ page.title }}');
+        const response = await fetch('https://api.github.com/repos/lawndoc/winbin.wtf/contents/docs{{ page.url }}');
         const data = await response.json();
         // Initialize search fields and results
         const search_form = document.getElementById('search_form');
