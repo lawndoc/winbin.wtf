@@ -6,7 +6,7 @@
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-        <div style="display: inline;">
+        <div style="display: inline; float: left;">
             <img src="/Windows-Folder-Search.png" width="50px" height="50px">
         </div>
         <div style="display: inline;">
