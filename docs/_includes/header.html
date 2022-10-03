@@ -8,8 +8,8 @@
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </div>
-    <div class="github-buttons">
-        <a class="github-button" href="https://github.com/lawndoc/winbin.wtf" data-icon="octicon-star" data-show-count="true" aria-label="Star lawndoc/winbin.wtf on GitHub">Star</a>
+        <div class="github-buttons">
+            <a class="github-button" href="https://github.com/lawndoc/winbin.wtf" data-icon="octicon-star" data-show-count="true" aria-label="Star lawndoc/winbin.wtf on GitHub">Star</a>
+        </div>
     </div>
   </header>
