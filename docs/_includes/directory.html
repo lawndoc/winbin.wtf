@@ -4,7 +4,7 @@
     body {
       overflow-y: scroll;
     }
-    .markdown-body h1 {
+    .markdown-body h1 h2 {
       display: flex;
     }
     .markdown-body form {
@@ -24,12 +24,12 @@
 </head>
 <body>
   <div class="container-lg px-3 my-5 markdown-body">
-    <h1>
+    <h2>
       Search {{ page.dir }}:
       <form id="search_form" autocomplete="off">
         <input id="search_input">
       </form>
-    </h1>
+    </h2>
     <ul id="list">
     </ul>
   </div>
