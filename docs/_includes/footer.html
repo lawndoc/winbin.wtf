@@ -5,6 +5,7 @@
 
         <div class="footer-col-wrapper">
             <div class="footer-col">
+                <h2 class="footer-heading">winbin.wtf</h2>
                 {%- if site.author %}
                 <ul class="contact-list">
                     {% if site.author.name -%}
@@ -15,6 +16,9 @@
                     {%- endif %}
                 </ul>
                 {%- endif %}
+                <div class="social-links">
+                    {%- include social.html -%}
+                </div>
             </div>
             <div class="footer-col">
                 <p>Contribute to this page on <a href="https://github.com/lawndoc/winbin.wtf/blob/main/docs/{{ page.path }}">GitHub</a></p>
