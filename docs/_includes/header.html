@@ -8,7 +8,11 @@
         {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
         <div style="display: inline-block;">
             <img src="/Windows-Folder-Search.png" width="50px" height="50px">
+        </div>
+        <div style="display: inline-block;">
             <a class="site-title" style="padding-right: 30px;" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        </div>
+        <div style="display: inline-block;">
             <div class="github-buttons" style="padding-top: 20px;">
                 <a class="github-button" href="https://github.com/lawndoc/winbin.wtf" data-icon="octicon-star" data-show-count="true" aria-label="Star lawndoc/winbin.wtf on GitHub">Star</a>
             </div>
