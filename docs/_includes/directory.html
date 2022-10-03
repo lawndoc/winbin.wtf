@@ -38,9 +38,8 @@
     const filterFiles = (filter) => {
       filter = filter.toLowerCase()
       return (file) => {
-        const filePath = file.path;
-        const fileName = filePath.substr(filePath.lastIndexOf("\\"), -1);
-        const isMarkdown = (/.md$/).test(filePath);
+        const fileName = file.name;
+        const isMarkdown = (/.md$/).test(fileName);
         const isInFilter = filter.split(' ')
           .every((token) => fileName.indexOf(token.toLowerCase()) !== -1)
         return !isMarkdown && isInFilter;
@@ -72,7 +71,7 @@
     const updateList = (data, filter = '') => {
       let htmlString = '';
       for (let file of data.filter(filterFiles(filter)).sort(sortFiles(filter))) {
-        const fileName = file.path.substr(file.path.lastIndexOf("\\"), -1);
+        const fileName = file.name;
         htmlString += `<li><a href="${fileName}">${fileName}</a></li>`;
       }
       document.getElementById('list').innerHTML = htmlString;
@@ -81,8 +80,7 @@
     const navigateToFile = (data, filter = '') => {
       files = data.filter(filterFiles(filter));
       if (files.length === 1) {
-        const fileName = file.path.substr(file.path.lastIndexOf("\\"), -1);
-        document.location = fileName;
+        document.location = file.name;
       }
     }
     (async () => {
