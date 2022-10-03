@@ -40,11 +40,10 @@
         return (file) => {
           const filePath = file.path;
           const fileName = filePath.replace('.md', '').toLowerCase().replace(/-/g, '');
-          const isMarkdown = (/.md$/).test(filePath);
           const isNotLicense = filePath !== 'LICENSE.md';
           const isInFilter = filter.split(' ')
             .every((token) => fileName.indexOf(token.toLowerCase()) !== -1)
-          return isMarkdown && isNotLicense && isInFilter;
+          return isNotLicense && isInFilter;
         }
       }
       // Match by closest to start of word then earliest word
@@ -89,7 +88,7 @@
       }
       (async () => {
         // Get GitHub repository file info
-        const response = await fetch('https://api.github.com/repos/lawndoc/winbin.wtf/contents/');
+        const response = await fetch('https://api.github.com/repos/lawndoc/winbin.wtf/contents{{ page.dir }}');
         const data = await response.json();
         // Initialize search fields and results
         const search_form = document.getElementById('search_form');
