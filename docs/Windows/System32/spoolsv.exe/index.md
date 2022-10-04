@@ -20,7 +20,6 @@ spawns:
 dlls:
     - C:\Windows\System32\advapi32.dll
     - C:\Windows\System32\APMon.dll
-    - C:\Windows\System32\en-US\APMon.dll.mui
     - C:\Windows\System32\AppMon.dll
     - C:\Windows\System32\BCP47Langs.dll
     - C:\Windows\System32\bcrypt.dll
@@ -44,21 +43,17 @@ dlls:
     - C:\Windows\System32\FWPUCLNT.DLL
     - C:\Windows\System32\FXSMON.dll
     - C:\Windows\System32\FXSRESM.dll
-    - C:\Windows\System32\en-US\FXSRESM.dll.mui
     - C:\Windows\System32\gdi32.dll
     - C:\Windows\System32\gdi32full.dll
     - C:\Windows\System32\gpapi.dll
     - C:\Windows\System32\iertutil.dll
     - C:\Windows\System32\inetpp.dll
-    - C:\Windows\System32\en-US\inetpp.dll.mui
     - C:\Windows\System32\IPHLPAPI.DLL
     - C:\Windows\System32\kernel.appcore.dll
     - C:\Windows\System32\kernel32.dll
     - C:\Windows\System32\KernelBase.dll
-    - C:\Windows\System32\en-US\KernelBase.dll.mui
     - C:\Windows\System32\locale.nls
     - C:\Windows\System32\localspl.dll
-    - C:\Windows\System32\en-US\localspl.dll.mui
     - C:\Windows\System32\msasn1.dll
     - C:\Windows\System32\msvcp_win.dll
     - C:\Windows\System32\msvcrt.dll
@@ -83,7 +78,6 @@ dlls:
     - C:\Windows\System32\rsaenh.dll
     - C:\Windows\System32\sechost.dll
     - C:\Windows\System32\setupapi.dll
-    - C:\Windows\System32\en-US\setupapi.dll.mui
     - C:\Windows\System32\sfc_os.dll
     - C:\Windows\System32\SHCore.dll
     - C:\Windows\System32\shlwapi.dll
@@ -92,8 +86,6 @@ dlls:
     - C:\Windows\System32\spfileq.dll
     - C:\Windows\System32\spinf.dll
     - C:\Windows\System32\spoolss.dll
-    - C:\Windows\System32\spoolsv.exe
-    - C:\Windows\System32\en-US\spoolsv.exe.mui
     - C:\Windows\System32\srvcli.dll
     - C:\Windows\System32\sspicli.dll
     - C:\Windows\System32\taskschd.dll
@@ -103,12 +95,10 @@ dlls:
     - C:\Windows\System32\umpdc.dll
     - C:\Windows\System32\urlmon.dll
     - C:\Windows\System32\usbmon.dll
-    - C:\Windows\System32\en-US\usbmon.dll.mui
     - C:\Windows\System32\user32.dll
     - C:\Windows\System32\userenv.dll
     - C:\Windows\System32\version.dll
     - C:\Windows\System32\win32spl.dll
-    - C:\Windows\System32\en-US\win32spl.dll.mui
     - C:\Windows\System32\win32u.dll
     - C:\Windows\System32\winhttp.dll
     - C:\Windows\System32\winnsi.dll
