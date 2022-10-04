@@ -9,3 +9,6 @@ minima:
     github: lawndoc
     twitter: lawndoc
     linkedin: cj-may
+
+plugins:
+ - jekyll-seo-tag
