@@ -1,8 +1,7 @@
+![winbin.wtf](./resources/header.png)
 
 ![image](https://user-images.githubusercontent.com/3946126/193678828-94d861a5-784c-4fc3-84ad-558cbf6ee3e4.png)
-
-
-# WinBin.wtf (tradução PT-BR)
+# (tradução PT-BR)
 
 Repositório que contém o código-fonte do site [WinBin.wtf](https://winbin.wtf). Este é um site de documentação binária do Windows. 
 O [site](https://winbin.wtf) tem o objetivo de compensar a falta de documentação da Microsoft sobre os programas binários do Windows.

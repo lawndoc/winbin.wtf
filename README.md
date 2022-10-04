@@ -1,4 +1,4 @@
-# WinBin.wtf
+![winbin.wtf](./resources/header.png)
 
 This repo contains the source code for [WinBin.wtf](https://winbin.wtf), a Windows binary documentation site. The site is intended to make up for Microsoft's lack of documentation on Windows binaries.
 
