@@ -6,23 +6,9 @@
         <div class="footer-col-wrapper">
             <div class="footer-col">
                 <h2 class="footer-heading">winbin.wtf</h2>
-                {%- if author %}
-                <ul class="contact-list">
-                    {% if author.name -%}
-                    <li class="p-name">{{ author.name | escape }}</li>
-                    {% endif -%}
-                    {% if author.email -%}
-                    <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ author.email }}</a></li>
-                    {%- endif %}
-                </ul>
-                {%- endif %}
-                <div class="social-links">
-                    {%- include social.html -%}
-                </div>
             </div>
-            <div class="footer-col">
+            <div class="footer-col" style="float:right">
                 <p>Contribute to this page on <a href="https://github.com/lawndoc/winbin.wtf/blob/main/docs/{{ page.path }}">GitHub</a></p>
-                <p>{{ site.description | escape }}</p>
             </div>
         </div>
 

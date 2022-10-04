@@ -12,5 +12,3 @@ If you can't find the page for the file you are looking for, then its documentat
 ## Scope
 
 The scope of this documentation is only files that come with a base install of any Windows Desktop version. This does not include opt-in binaries installed by the control panel item "Turn Windows features on or off." If/when all default Windows binaries are documented or this project receives more support, the scope of the documentation may expand.
-
-##### Please contribute to this documentation on [GitHub](https://github.com/lawndoc/winbin.wtf)
