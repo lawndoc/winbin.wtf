@@ -52,7 +52,6 @@ dlls:
     - C:\Windows\System32\kernel.appcore.dll
     - C:\Windows\System32\kernel32.dll
     - C:\Windows\System32\KernelBase.dll
-    - C:\Windows\System32\locale.nls
     - C:\Windows\System32\localspl.dll
     - C:\Windows\System32\msasn1.dll
     - C:\Windows\System32\msvcp_win.dll
@@ -82,7 +81,6 @@ dlls:
     - C:\Windows\System32\SHCore.dll
     - C:\Windows\System32\shlwapi.dll
     - C:\Windows\System32\snmpapi.dll
-    - C:\Windows\Globalization\Sorting\SortDefault.nls
     - C:\Windows\System32\spfileq.dll
     - C:\Windows\System32\spinf.dll
     - C:\Windows\System32\spoolss.dll
