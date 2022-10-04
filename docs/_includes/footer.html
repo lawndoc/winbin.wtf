@@ -6,13 +6,13 @@
         <div class="footer-col-wrapper">
             <div class="footer-col">
                 <h2 class="footer-heading">winbin.wtf</h2>
-                {%- if author %}
+                {%- if site.author %}
                 <ul class="contact-list">
-                    {% if author.name -%}
-                    <li class="p-name">{{ author.name | escape }}</li>
+                    {% if site.author.name -%}
+                    <li class="p-name">{{ site.author.name | escape }}</li>
                     {% endif -%}
-                    {% if author.email -%}
-                    <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ author.email }}</a></li>
+                    {% if site.author.email -%}
+                    <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
                     {%- endif %}
                 </ul>
                 {%- endif %}
