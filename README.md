@@ -22,4 +22,6 @@ For now, the scope of this project is only files that come with a base install o
 
 There are a huge number of built-in Windows binaries, so any contributions to this documentation would be appreciated. I've created a template that **must be** used when documenting a new binary. Any fields that you are not able to accurately fill in, just leave as "TBD" (to be determined/documented). An incomplete page for a binary is better than no page! :)
 
+For tips on getting started with contributing, please see the [Wiki](https://github.com/lawndoc/winbin.wtf/wiki/Contributing-Tips)
+
 Modifications to the template should be discussed first by opening an issue in this repository. Adding new fields to the template will require us to retroactively modify all existing binary docs, so be prepared to make a good argument for adding a field.
