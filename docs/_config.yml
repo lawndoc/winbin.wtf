@@ -5,7 +5,7 @@ defaults:
     scope:
       path: ""  # all files in project
     values:
-      layout: default
+      layout: page
 
 author:
   name: C.J. May
