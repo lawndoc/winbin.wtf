@@ -12,6 +12,7 @@ author:
   email: winbin.wtf@cjmay.info
 
 minima:
+  skin: solarized
   social_links:
     github: lawndoc
     twitter: lawndoc
