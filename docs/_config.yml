@@ -1,4 +1,4 @@
-theme: minima
+remote_theme: jekyll/minima
 
 defaults:
   -
@@ -20,3 +20,4 @@ minima:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-remote-theme
