@@ -6,3 +6,5 @@ _site/
 .bundle/
 vendor/
 Gemfile.lock
+# Ignore Visual Studio folder (These are client sided)
+.vs
