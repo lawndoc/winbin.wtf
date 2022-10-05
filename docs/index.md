@@ -3,7 +3,7 @@ title: Windows File Documentation
 layout: default
 ---
 
-## How to find a binary
+## Find information about a Windows binary
 This site is structured exactly like a C:\ drive on a normal Windows Desktop installation. To find documentation on the file you are looking for, just add its path to the end of this site's URL. For example, the documentation for calc.exe can be found at:
 
 [`https://winbin.wtf/Windows/System32/calc.exe`](./Windows/System32/calc.exe)
