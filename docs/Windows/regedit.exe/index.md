@@ -62,7 +62,7 @@ dlls:
     - C:\Windows\System32\wldp.dll
     - C:\Windows\System32\ws2_32.dll
     - C:\Windows\System32\xmllite.dll
-lol-bin: True (T1564.004)
+lol-bin: True
 resources:
     - name: Wikipedia
       link: https://en.wikipedia.org/wiki/Windows_Registry
