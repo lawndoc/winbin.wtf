@@ -12,7 +12,7 @@ spawns:
     - Unknown  # full file path or "none"
 dlls:
     - Unknown  # full file path or "none"
-lol-bin: False
+lol-bin: False # False or True (T####.###) Ex: True (T1564.004)
 resources:
     - name: none
       link: https://example.com/link
