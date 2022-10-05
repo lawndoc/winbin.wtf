@@ -1,5 +1,12 @@
 theme: minima
 
+defaults:
+  -
+    scope:
+      path: ""  # all files in project
+    values:
+      layout: default
+
 author:
   name: C.J. May
   email: winbin.wtf@cjmay.info

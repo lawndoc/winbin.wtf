@@ -25,7 +25,7 @@
 <p><strong>DLLs Called:</strong></p>
 <ul>
     {%- for dll in page.dlls -%}
-        <li>{{ dll }}</li>
+        <li><a href="{{ dll | split: ':' | last | replace: '\\', '/' }}">{{ dll }}</a></li>
     {%- endfor -%}
 </ul>
 
