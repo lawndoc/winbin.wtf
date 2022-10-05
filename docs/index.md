@@ -1,5 +1,6 @@
 ---
 title: Windows File Documentation
+layout: default
 ---
 
 ## How to find a binary
