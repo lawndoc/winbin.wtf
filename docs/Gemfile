@@ -1,1 +1,4 @@
+gem "jekyll"
+gem "jekyll-feed"
 gem "jekyll-remote-theme"
+gem "jekyll-seo-tag"
