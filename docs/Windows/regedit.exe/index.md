@@ -12,7 +12,6 @@ spawns:
     - none
 dlls:
     - C:\Windows\System32\aclui.dll
-    - C:\Windows\System32\en-US\aclui.dll.mui
     - C:\Windows\System32\advapi32.dll
     - C:\Windows\System32\authz.dll
     - C:\Windows\System32\bcrypt.dll
@@ -45,8 +44,6 @@ dlls:
     - C:\Windows\System32\sechost.dll
     - C:\Windows\System32\SHCore.dll
     - C:\Windows\System32\shell32.dll
-    - C:\Windows\System32\en-US\shell32.dll.mui
-    - C:\Windows\SystemResources\shell32.dll.mun
     - C:\Windows\System32\shlwapi.dll
     - C:\Windows\System32\TextInputFramework.dll
     - C:\Windows\System32\TextShaping.dll
