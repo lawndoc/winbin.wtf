@@ -19,7 +19,7 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         working-directory: ./docs/
-        ruby-version: ruby-3.2.0-preview2
+        ruby-version: 3.1.2
         bundler-cache: true
     - name: Compile Jekyll
       run: |
@@ -37,7 +37,7 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         working-directory: ./docs/
-        ruby-version: ruby-3.2.0-preview2
+        ruby-version: 3.1.2
         bundler-cache: true
     - name: Compile Jekyll
       run: |
