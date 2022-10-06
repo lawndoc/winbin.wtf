@@ -9,14 +9,37 @@ on:
     - '*'
 
 jobs:
-  build:
+  build-ubuntu:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the site in the jekyll/builder container
+    - name: Ruby installation
+      uses: ruby/setup-ruby@v1
+      with:
+        working-directory: ./docs/
+        ruby-version: 3.1.2
+        bundler-cache: true
+    - name: Compile Jekyll
       run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        cd docs
+        bundle exec jekyll build --future
+  
+  build-windows:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: Setup Checkout
+      uses: actions/checkout@v3
+    - name: Ruby installation
+      uses: ruby/setup-ruby@v1
+      with:
+        working-directory: ./docs/
+        ruby-version: 3.1.2
+        bundler-cache: true
+    - name: Compile Jekyll
+      run: |
+        cd docs
+        bundle exec jekyll build --future
