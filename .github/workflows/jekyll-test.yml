@@ -18,7 +18,7 @@ jobs:
     - name: Build the site in the jekyll/builder container (Ubuntu)
       run: |
         docker run \
-        -v ${{ github.workspace }}:/docs/ -v ${{ github.workspace }}/_site:/docs/_site \
+        -v ${{ github.workspace }}/docs/ -v ${{ github.workspace }}/docs/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /docs/ && jekyll build --future"
   
   build-windows:
