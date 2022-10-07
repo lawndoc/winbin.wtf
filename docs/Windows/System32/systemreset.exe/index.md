@@ -8,8 +8,6 @@ file-size:
 signature: Microsoft Windows
 spawned-by:
     - explorer.exe
-	- SystemSettings.exe
-    - cmd.exe
 spawns:
     - none
 dlls:
