@@ -17,7 +17,7 @@ dlls:
 lol-bin: False
 resources:
     - name: No Reliable Source
-      link:
+      link: about:blank
 acknowledgements:
     - name: Auron
       handle: mou-ikkai
