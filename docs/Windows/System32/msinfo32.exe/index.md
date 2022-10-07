@@ -3,7 +3,7 @@ title: msinto32.exe
 description: |
   A tool used to show system hardware, capabilities, software, drivers, and other information. This data is often used for diagnostic purposes.
 file-size:
-    min: 376?KB"
+    min: "376KB"
     max: "376KB"
 signature: No Signer
 spawned-by:
