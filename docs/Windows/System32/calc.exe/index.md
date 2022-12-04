@@ -100,7 +100,8 @@ dlls:
     - C:\Windows\System32\WinTypes.dll
     - C:\Windows\System32\wldp.dll
     - C:\Windows\System32\ws2_32.dll
-lol-bin: No
+lol-bin: False
+gui: True
 resources:
     - name: Source Code
       link: https://github.com/microsoft/calculator

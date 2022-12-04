@@ -111,6 +111,7 @@ dlls:
     - C:\Windows\System32\xpspushlayer.dll
     - C:\Windows\System32\xpsservices.dll
 lol-bin: False
+gui: False
 resources:
     - name: Print Spooler Microsoft Docs
       link: https://docs.microsoft.com/en-us/windows/win32/printdocs/print-spooler

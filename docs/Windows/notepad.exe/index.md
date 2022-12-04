@@ -52,6 +52,7 @@ dlls:
     - C:\Windows\System32\wldp.dll
     - C:\Windows\System32\ws2_32.dll
 lol-bin: False
+gui: True
 resources:
     - name: Wikipedia
       link: https://en.wikipedia.org/wiki/Windows_Notepad
