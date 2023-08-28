@@ -1,6 +1,6 @@
 ---
 title: Windows File Documentation
-layout: default
+layout: base
 ---
 
 ## Find information about a Windows binary
