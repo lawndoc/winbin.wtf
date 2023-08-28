@@ -1,0 +1,35 @@
+---
+title: logviewer.exe
+description: Win32 API Log Viewer
+file-size:
+    min: "?KB"
+    max: "?KB"
+signature: None
+spawned-by:
+    - Unknown
+spawns:
+    - Unknown
+dlls:
+    - C:\Windows\SYSTEM32\ntdll.dll
+    - C:\Windows\System32\KERNEL32.DLL
+    - C:\Windows\System32\KERNELBASE.dll
+    - C:\Windows\System32\GDI32.dll
+    - C:\Windows\System32\win32u.dll
+    - C:\Windows\System32\gdi32full.dll
+    - C:\Windows\System32\msvcp_win.dll
+    - C:\Windows\System32\ucrtbase.dll
+    - C:\Windows\System32\USER32.dll
+    - C:\Windows\System32\COMDLG32.dll
+    - C:\Windows\System32\msvcrt.dll
+lol-bin: Unknown
+gui: Unknown
+resources:
+    - None
+acknowledgements:
+    - name: Strontic
+      handle: strontic
+    - name: C.J. May
+      handle: lawndoc
+---
+
+{% include filedoc.html %}

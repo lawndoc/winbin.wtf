@@ -5,7 +5,7 @@ description: |
 file-size:
     min: "266KB"
     max: "266KB"
-signature: No Signer
+signature: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 spawned-by:
     - explorer.exe
 spawns:
