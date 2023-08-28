@@ -10,35 +10,7 @@ spawned-by:
 spawns:
     - Unknown
 dlls:
-    - C
-    - :
-    - \
-    - W
-    - i
-    - n
-    - d
-    - o
-    - w
-    - s
-    - \
-    - S
-    - Y
-    - S
-    - T
-    - E
-    - M
-    - 3
-    - 2
-    - \
-    - n
-    - t
-    - d
-    - l
-    - l
-    - .
-    - d
-    - l
-    - l
+    - Unknown
 lol-bin: Unknown
 gui: Unknown
 resources:
