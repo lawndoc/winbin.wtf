@@ -8,7 +8,15 @@ defaults:
       layout: page
 
 exclude:
-  - _test.yml
+  - _config.yml
+  - Program Files
+  - Program Files (x86)
+  - ProgramData
+  - Users
+  - Windows
+
+include:
+  - Windows/System32/calc.exe
 
 author:
   name: C.J. May

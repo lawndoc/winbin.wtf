@@ -22,7 +22,7 @@ jobs:
     - name: Compile Jekyll
       run: |
         cd docs
-        bundle exec jekyll build --future --verbose
+        bundle exec jekyll build --config _test.yml --verbose
   
   build-windows:
 
@@ -40,4 +40,4 @@ jobs:
     - name: Compile Jekyll
       run: |
         cd docs
-        bundle exec jekyll build --future --verbose
+        bundle exec jekyll build --config _test.yml --verbose
