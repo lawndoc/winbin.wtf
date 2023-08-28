@@ -2,7 +2,7 @@
 title: spoolsv.exe
 description: |
   The Windows print spooler service is used to manage the printing process. This includes retrieving the location of the correct printer driver, loading that driver, spooling high-level function calls into a print job, scheduling the print job for printing, and so on.
-  
+
   The spooler is loaded at system startup and continues to run until the operating system is shut down.
 file-size:
     min: "808KB"

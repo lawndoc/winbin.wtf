@@ -5,21 +5,29 @@ description: |
 file-size:
     min: "508KB"
     max: "508KB"
-signature: Microsoft Windows
+signature: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 spawned-by:
     - explorer.exe
 spawns:
     - none
 dlls:
-    - Unknown
+    - C:\WINDOWS\SYSTEM32\ntdll.dll
+    - C:\WINDOWS\System32\KERNEL32.DLL
+    - C:\WINDOWS\System32\KERNELBASE.dll
+    - C:\WINDOWS\System32\ADVAPI32.dll
+    - C:\WINDOWS\System32\msvcrt.dll
+    - C:\WINDOWS\System32\sechost.dll
 lol-bin: False
 gui: True
 resources:
-    - name: No Reliable Source
-      link: about:blank
+    - None
 acknowledgements:
     - name: Auron
       handle: mou-ikkai
+    - name: Strontic
+      handle: strontic
+    - name: C.J. May
+      handle: lawndoc
 ---
 
 {% include filedoc.html %}
