@@ -17,3 +17,7 @@ The scope of this documentation is only files that come with a base install of a
 ## For power users
 
 For programmatic access to this data, it's best to clone the [GitHub repo](https://github.com/lawndoc/winbin.wtf) and extract the data from the YAML frontmatter of each document. If this project gets popular enough, maybe we will add a REST and/or GraphQL API for easier access.
+
+# Documentation Root
+
+{% include directory.html %}

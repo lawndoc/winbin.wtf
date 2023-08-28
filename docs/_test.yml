@@ -8,7 +8,17 @@ defaults:
       layout: page
 
 exclude:
-  - _test.yml
+  - _config.yml
+  - Program Files/
+  - Program Files (x86)/
+  - ProgramData/
+  - Users/
+  - Windows/
+
+include:
+  - Windows/System32/calc.exe/index.md
+  - Windows/System32/index.md
+  - Windows/index.md
 
 author:
   name: C.J. May

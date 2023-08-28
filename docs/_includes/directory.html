@@ -43,8 +43,18 @@
         const fileName = file.name;
         const isMarkdown = (/.md$/).test(fileName);
         const isInFilter = filter.split(' ')
-          .every((token) => fileName.indexOf(token.toLowerCase()) !== -1)
-        return !isMarkdown && isInFilter;
+          .every((token) => fileName.toLowerCase().indexOf(token.toLowerCase()) !== -1);
+        const isInExclusions = [
+          "CNAME",
+          "Gemfile",
+          "Windows-Folder-Search.png",
+          "_config.yml",
+          "_includes",
+          "_layouts",
+          "favicon.ico",
+          "serviceworker.js",
+        ].includes(fileName);
+        return !isMarkdown && isInFilter && !isInExclusions;
       }
     }
     // Match by closest to start of word then earliest word
