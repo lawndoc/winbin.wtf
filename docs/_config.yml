@@ -1,4 +1,4 @@
-remote_theme: jekyll/minima@gh-pages
+remote_theme: jekyll/minima
 
 defaults:
   -
