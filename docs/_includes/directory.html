@@ -43,7 +43,7 @@
         const fileName = file.name;
         const isMarkdown = (/.md$/).test(fileName);
         const isInFilter = filter.split(' ')
-          .every((token) => fileName.indexOf(token.toLowerCase()) !== -1)
+          .every((token) => fileName.toLowerCase().indexOf(token.toLowerCase()) !== -1)
         return !isMarkdown && isInFilter;
       }
     }
