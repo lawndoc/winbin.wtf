@@ -11,7 +11,7 @@ with open(f"{rootdir}/docs/Windows/index.md", "r") as f:
 
 for subdir, dirs, files in os.walk(rootdir):
     for directory in dirs:
-        if directory.lower().endswith(".dll") or directory.lower().endswith(".exe"):
+        if directory.lower().endswith(".dll") or directory.lower().endswith(".exe") or directory.beginswith("_"):
             pass
         elif os.path.exists(f"{subdir}/{directory}/index.md"):
             pass
