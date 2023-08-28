@@ -12,7 +12,8 @@ spawns:
     - Unknown  # full file path or "none"
 dlls:
     - Unknown  # full file path or "none"
-lol-bin: False # False or True (T####.###) Ex: True (T1564.004)
+lol-bin: False # False or [True](https://lolbas-project.github.io/lolbas/...)
+gui: False     # False or True
 resources:
     - name: none
       link: https://example.com/link

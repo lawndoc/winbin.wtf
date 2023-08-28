@@ -13,6 +13,7 @@ spawns:
 dlls:
     - Unknown
 lol-bin: False
+gui: True
 resources:
     - name: No Reliable Source
       link: about:blank

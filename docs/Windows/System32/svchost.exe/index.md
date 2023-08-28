@@ -21,6 +21,7 @@ dlls:
     - C:\Windows\System32\umpo.dll
     - many more to be documented...
 lol-bin: False
+gui: False
 resources:
     - name: Wikipedia
       link: https://en.wikipedia.org/wiki/Svchost.exe

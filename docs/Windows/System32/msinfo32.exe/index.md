@@ -1,5 +1,5 @@
 ---
-title: msinto32.exe
+title: msinfo32.exe
 description: |
   A tool used to show system hardware, capabilities, software, drivers, and other information. This data is often used for diagnostic purposes.
 file-size:
@@ -73,6 +73,7 @@ dlls:
     - C:\Windows\System32\ws2_32.dll
     - C:\Windows\System32\wtsapi32.dll
 lol-bin: False
+gui: True
 resources:
     - name: Microsoft Server Docs
       link: https://github.com/MicrosoftDocs/windowsserverdocs/blob/main/WindowsServerDocs/administration/windows-commands/msinfo32.md

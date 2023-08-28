@@ -3,7 +3,7 @@ title: calc.exe
 description: The Windows Calculator app is a modern Windows app written in C++ and C# that ships pre-installed with Windows. The app provides standard, scientific, and programmer calculator functionality, as well as a set of converters between various units of measurement and currencies.
 file-size:
     min: 27KB
-    max: 27KB
+    max: 44KB
 signature: None
 spawned-by:
     - explorer.exe
@@ -100,7 +100,8 @@ dlls:
     - C:\Windows\System32\WinTypes.dll
     - C:\Windows\System32\wldp.dll
     - C:\Windows\System32\ws2_32.dll
-lol-bin: No
+lol-bin: False
+gui: True
 resources:
     - name: Source Code
       link: https://github.com/microsoft/calculator

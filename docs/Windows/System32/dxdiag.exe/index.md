@@ -122,6 +122,7 @@ dlls:
     - C:\Windows\System32\wtsapi32.dll
     - C:\Windows\System32\WUDFCoinstaller.dll
 lol-bin: False
+gui: True
 resources:
     - name: Wikipedia
       link: https://en.wikipedia.org/wiki/DxDiag

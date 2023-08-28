@@ -110,7 +110,8 @@ dlls:
     - C:\Windows\System32\wldp.dll
     - C:\Windows\System32\ws2_32.dll
     - C:\Windows\System32\wtsapi32.dll
-lol-bin: No
+lol-bin: False
+gui: True
 resources:
     - name: Wikipedia
       link: https://en.wikipedia.org/wiki/Task_Manager_(Windows)

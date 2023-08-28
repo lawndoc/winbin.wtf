@@ -1,4 +1,4 @@
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@gh-pages
 
 defaults:
   -
@@ -14,9 +14,9 @@ author:
 minima:
   skin: solarized
   social_links:
-    github: lawndoc
-    twitter: lawndoc
-    linkedin: cj-may
+    - {platform: github, user_url: "https://github.com/lawndoc"}
+    - {platform: twitter, user_url: "https://twitter.com/lawndoc"}
+    - {platform: linkedin, user_url: "https://linkedin.com/in/cj-may"}
 
 plugins:
  - jekyll-seo-tag
